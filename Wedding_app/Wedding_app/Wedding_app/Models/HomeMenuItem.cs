@@ -7,7 +7,8 @@ namespace Wedding_app.Models
     public enum MenuItemType
     {
         Browse,
-        About
+        About,
+        RSVP
     }
     public class HomeMenuItem
     {

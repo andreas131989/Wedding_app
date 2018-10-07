@@ -100,7 +100,9 @@ C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\android\assets\Wedding_app.Android.pdb
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\bin\Debug\netstandard2.0\Wedding_app.dll
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\linksrc\Wedding_app.Android.pdb
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\bin\Debug\Wedding_app.dll.mdb
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\linksrc\Wedding_app.dll.mdb
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

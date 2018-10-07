@@ -18,8 +18,15 @@ namespace Wedding_app.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" }
+                new HomeMenuItem {Id = MenuItemType.Browse, Title="Homepage" },
+                new HomeMenuItem {Id = MenuItemType.RSVP, Title="RSVP" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Program" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Venue" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Accomodation" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Transportation" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Uploads" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Registry" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Socialize" }
             };
 
             ListViewMenu.ItemsSource = menuItems;
