@@ -17,7 +17,7 @@ namespace Wedding_app.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.Homepage, (NavigationPage)Detail);
         }
 
         public async Task NavigateFromMenu(int id)
@@ -26,11 +26,35 @@ namespace Wedding_app.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItemType.Browse:
+                    case (int)MenuItemType.Homepage:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                        break;
+                    case (int)MenuItemType.RSVP:
+                        MenuPages.Add(id, new NavigationPage(new RSVPPage()));
+                        break;
+                    case (int)MenuItemType.Program:
+                        MenuPages.Add(id, new NavigationPage(new ProgramPage()));
+                        break;
+                    case (int)MenuItemType.Accomodation:
+                        MenuPages.Add(id, new NavigationPage(new AccomodationPage()));
+                        break;
+                    case (int)MenuItemType.Venue:
+                        MenuPages.Add(id, new NavigationPage(new VenuePage()));
+                        break;
+                    case (int)MenuItemType.Transportation:
+                        MenuPages.Add(id, new NavigationPage(new TransportPage()));
+                        break;
+                    case (int)MenuItemType.Registry:
+                        MenuPages.Add(id, new NavigationPage(new RegistryPage()));
+                        break;
+                    case (int)MenuItemType.Uploads:
+                        MenuPages.Add(id, new NavigationPage(new UploadsPage()));
+                        break;
+                    case (int)MenuItemType.Socialize:
+                        MenuPages.Add(id, new NavigationPage(new SocializePage()));
                         break;
                 }
             }
