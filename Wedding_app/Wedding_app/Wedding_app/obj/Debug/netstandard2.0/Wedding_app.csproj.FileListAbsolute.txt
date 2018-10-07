@@ -1,0 +1,17 @@
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\bin\Debug\netstandard2.0\Wedding_app.deps.json
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\bin\Debug\netstandard2.0\Wedding_app.dll
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\bin\Debug\netstandard2.0\Wedding_app.pdb
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Wedding_app.csprojAssemblyReference.cache
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Wedding_app.csproj.CoreCompileInputs.cache
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Wedding_app.AssemblyInfoInputs.cache
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Wedding_app.AssemblyInfo.cs
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Wedding_app.dll
+C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Wedding_app.pdb
