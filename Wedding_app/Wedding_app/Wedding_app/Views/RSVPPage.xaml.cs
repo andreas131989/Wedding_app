@@ -16,5 +16,10 @@ namespace Wedding_app.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Picker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

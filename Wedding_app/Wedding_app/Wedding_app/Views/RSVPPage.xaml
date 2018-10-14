@@ -17,6 +17,8 @@
                 VerticalOptions="StartAndExpand"/>
             </StackLayout>
             <Label Text="Date of arrival and departure:"/>
+            <DatePicker Format="D"
+                        HorizontalOptions="StartAndExpand"/>
             <Label Text="Transportation:"/>
             <StackLayout Orientation="Horizontal">
                 <Button Text="Own"
@@ -43,11 +45,15 @@
                 <Entry Keyboard="Telephone"
                    Placeholder="Phone"
                    HorizontalOptions="Center" />
-                <Entry Keyboard="Text"
-                       Placeholder="Meal"
-                       HorizontalOptions="Center"/>
+                <Picker Title="Meal"
+                        HorizontalOptions="Center">
+                    <Picker.Items>
+                        <x:String>Vegetarian</x:String>
+                        <x:String>None</x:String>
+                    </Picker.Items>
+                </Picker>
                 <Button Text="Add guests"
-                        HorizontalOptions="Center"/>
+                        HorizontalOptions="EndAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
                 <Button Text="Modify" x:Name="Modify" HorizontalOptions="End"/>
