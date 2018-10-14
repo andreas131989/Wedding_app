@@ -8,21 +8,29 @@
             <StackLayout Orientation="Horizontal">
                 <Button Text="Yes"
                 HorizontalOptions="Start"
-                VerticalOptions="StartAndExpand"/>
+                x:Name="RSVP_yes"
+                VerticalOptions="StartAndExpand"
+                Clicked="RSVP_yes_Clicked"/>
                 <Button Text="No"
                 HorizontalOptions="Center"
-                VerticalOptions="StartAndExpand"/>
+                VerticalOptions="StartAndExpand"
+                x:Name="RSVP_no"
+                Clicked="RSVP_no_Clicked"/>
                 <Button Text="Maybe"
                 HorizontalOptions="End"
-                VerticalOptions="StartAndExpand"/>
+                VerticalOptions="StartAndExpand"
+                x:Name="RSVP_maybe"
+                Clicked="RSVP_maybe_Clicked"/>
             </StackLayout>
             <Label Text="Date of arrival and departure:"/>
             <StackLayout Orientation="Horizontal">
             <DatePicker Format="D"
+                        x:Name="arrival"
                         FontSize="Small"
                         WidthRequest="200"
                         HorizontalOptions="StartAndExpand"/>
             <DatePicker Format="D"
+                        x:Name="departure"
                         FontSize="Small"
                         WidthRequest="200"
                         HorizontalOptions="End"/>
@@ -31,27 +39,50 @@
             <StackLayout Orientation="Horizontal">
                 <Button Text="Own"
                 HorizontalOptions="Start"
-                VerticalOptions="StartAndExpand"/>
+                VerticalOptions="StartAndExpand"
+                x:Name="own_trans"
+                Clicked="own_trans_Clicked"/>
                 <Button Text="Rent"
                 HorizontalOptions="Center"
-                VerticalOptions="StartAndExpand"/>
+                VerticalOptions="StartAndExpand"
+                x:Name="rent_trans"
+                Clicked="rent_trans_Clicked"/>
                 <Button Text="None"
                 HorizontalOptions="End"
-                VerticalOptions="StartAndExpand"/>
+                VerticalOptions="StartAndExpand"
+                x:Name="none_trans"
+                Clicked="none_trans_Clicked"/>
             </StackLayout>
             <Label Text="Registration:"></Label>
             <StackLayout Orientation="Horizontal">
                 <Entry Keyboard="Text"
                    Placeholder="Name"
+                   x:Name="reg_name"
                    FontSize="Small"
                    WidthRequest="90"
                    HorizontalOptions="Start" />
                 <Entry Keyboard="Text"
                    Placeholder="Surname"
+                   x:Name="reg_surname"
                    FontSize="Small"
                    WidthRequest="90"
                    HorizontalOptions="Center" />
+                <Entry Keyboard="Email"
+                   Placeholder="Email"
+                   x:Name="reg_email"
+                   WidthRequest="180"
+                   FontSize="Small"
+                   HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry Keyboard="Telephone"
+                   x:Name="reg_phone"
+                   Placeholder="Phone"
+                   WidthRequest="150"
+                   FontSize="Small"
+                   HorizontalOptions="Start" />
                 <Picker Title="Meal"
+                        x:Name="reg_meal"
                         WidthRequest="90"
                         FontSize="Small"
                         HorizontalOptions="Center">
@@ -61,24 +92,48 @@
                     </Picker.Items>
                 </Picker>
             </StackLayout>
+            <Label Text="Plus one:"></Label>
             <StackLayout Orientation="Horizontal">
+                <Entry Keyboard="Text"
+                   Placeholder="Name"
+                   x:Name="plus_name"
+                   FontSize="Small"
+                   WidthRequest="90"
+                   HorizontalOptions="Start" />
+                <Entry Keyboard="Text"
+                   Placeholder="Surname"
+                   x:Name="plus_surname"
+                   FontSize="Small"
+                   WidthRequest="90"
+                   HorizontalOptions="Center" />
                 <Entry Keyboard="Email"
                    Placeholder="Email"
+                   x:Name="plus_email"
                    WidthRequest="180"
                    FontSize="Small"
-                   HorizontalOptions="Start" />
+                   HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
                 <Entry Keyboard="Telephone"
                    Placeholder="Phone"
+                   x:Name="plus_phone"
                    WidthRequest="150"
                    FontSize="Small"
-                   HorizontalOptions="Center" />
-                <Button Text="Add guests"
-                        HorizontalOptions="EndAndExpand"/>
+                   HorizontalOptions="Start" />
+                <Picker Title="Meal"
+                        x:Name="plus_meal"
+                        WidthRequest="90"
+                        FontSize="Small"
+                        HorizontalOptions="Center">
+                    <Picker.Items>
+                        <x:String>Vegetarian</x:String>
+                        <x:String>None</x:String>
+                    </Picker.Items>
+                </Picker>
             </StackLayout>
-
             <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
-                <Button Text="Modify" x:Name="Modify" HorizontalOptions="End"/>
-                <Button Text="Done" x:Name="Done" HorizontalOptions="End" />
+                <Button Text="Modify" x:Name="Modify" HorizontalOptions="End" Clicked="Modify_Clicked"/>
+                <Button Text="Done" x:Name="Done" HorizontalOptions="End" Clicked="Done_Clicked" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
