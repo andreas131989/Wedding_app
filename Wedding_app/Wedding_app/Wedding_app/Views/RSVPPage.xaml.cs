@@ -79,6 +79,7 @@ namespace Wedding_app.Views
             plus_name.IsEnabled = false;
             plus_surname.IsEnabled = false;
             plus_meal.IsEnabled = false;
+            DisplayAlert("Registration Complete", "Thank you for registering!", "OK");
         }
 
         private void Modify_Clicked(object sender, EventArgs e)

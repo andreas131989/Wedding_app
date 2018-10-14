@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Wedding_app.Android.dll" comes first in this list. */
 		"Wedding_app.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.LocalNotifications.Abstractions.dll",
+		"Plugin.LocalNotifications.dll",
 		"Wedding_app.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

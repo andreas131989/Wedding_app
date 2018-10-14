@@ -88,7 +88,7 @@
                         HorizontalOptions="Center">
                     <Picker.Items>
                         <x:String>Vegetarian</x:String>
-                        <x:String>None</x:String>
+                        <x:String>Normal</x:String>
                     </Picker.Items>
                 </Picker>
             </StackLayout>
@@ -127,7 +127,7 @@
                         HorizontalOptions="Center">
                     <Picker.Items>
                         <x:String>Vegetarian</x:String>
-                        <x:String>None</x:String>
+                        <x:String>Normal</x:String>
                     </Picker.Items>
                 </Picker>
             </StackLayout>
