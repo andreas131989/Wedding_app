@@ -17,8 +17,16 @@
                 VerticalOptions="StartAndExpand"/>
             </StackLayout>
             <Label Text="Date of arrival and departure:"/>
+            <StackLayout Orientation="Horizontal">
             <DatePicker Format="D"
+                        FontSize="Small"
+                        WidthRequest="200"
                         HorizontalOptions="StartAndExpand"/>
+            <DatePicker Format="D"
+                        FontSize="Small"
+                        WidthRequest="200"
+                        HorizontalOptions="End"/>
+            </StackLayout>
             <Label Text="Transportation:"/>
             <StackLayout Orientation="Horizontal">
                 <Button Text="Own"
@@ -35,26 +43,39 @@
             <StackLayout Orientation="Horizontal">
                 <Entry Keyboard="Text"
                    Placeholder="Name"
+                   FontSize="Small"
+                   WidthRequest="90"
                    HorizontalOptions="Start" />
                 <Entry Keyboard="Text"
                    Placeholder="Surname"
-                   HorizontalOptions="Center" />
-                <Entry Keyboard="Email"
-                   Placeholder="Email"
-                   HorizontalOptions="Center" />
-                <Entry Keyboard="Telephone"
-                   Placeholder="Phone"
+                   FontSize="Small"
+                   WidthRequest="90"
                    HorizontalOptions="Center" />
                 <Picker Title="Meal"
+                        WidthRequest="90"
+                        FontSize="Small"
                         HorizontalOptions="Center">
                     <Picker.Items>
                         <x:String>Vegetarian</x:String>
                         <x:String>None</x:String>
                     </Picker.Items>
                 </Picker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry Keyboard="Email"
+                   Placeholder="Email"
+                   WidthRequest="180"
+                   FontSize="Small"
+                   HorizontalOptions="Start" />
+                <Entry Keyboard="Telephone"
+                   Placeholder="Phone"
+                   WidthRequest="150"
+                   FontSize="Small"
+                   HorizontalOptions="Center" />
                 <Button Text="Add guests"
                         HorizontalOptions="EndAndExpand"/>
             </StackLayout>
+
             <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
                 <Button Text="Modify" x:Name="Modify" HorizontalOptions="End"/>
                 <Button Text="Done" x:Name="Done" HorizontalOptions="End" />
