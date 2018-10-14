@@ -4,9 +4,55 @@
              x:Class="Wedding_app.Views.RSVPPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Are you coming to our wedding?"/>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Yes"
+                HorizontalOptions="Start"
+                VerticalOptions="StartAndExpand"/>
+                <Button Text="No"
+                HorizontalOptions="Center"
+                VerticalOptions="StartAndExpand"/>
+                <Button Text="Maybe"
+                HorizontalOptions="End"
+                VerticalOptions="StartAndExpand"/>
+            </StackLayout>
+            <Label Text="Date of arrival and departure:"/>
+            <Label Text="Transportation:"/>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Own"
+                HorizontalOptions="Start"
+                VerticalOptions="StartAndExpand"/>
+                <Button Text="Rent"
+                HorizontalOptions="Center"
+                VerticalOptions="StartAndExpand"/>
+                <Button Text="None"
+                HorizontalOptions="End"
+                VerticalOptions="StartAndExpand"/>
+            </StackLayout>
+            <Label Text="Registration:"></Label>
+            <StackLayout Orientation="Horizontal">
+                <Entry Keyboard="Text"
+                   Placeholder="Name"
+                   HorizontalOptions="Start" />
+                <Entry Keyboard="Text"
+                   Placeholder="Surname"
+                   HorizontalOptions="Center" />
+                <Entry Keyboard="Email"
+                   Placeholder="Email"
+                   HorizontalOptions="Center" />
+                <Entry Keyboard="Telephone"
+                   Placeholder="Phone"
+                   HorizontalOptions="Center" />
+                <Entry Keyboard="Text"
+                       Placeholder="Meal"
+                       HorizontalOptions="Center"/>
+                <Button Text="Add guests"
+                        HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Button Text="Modify" x:Name="Modify" HorizontalOptions="End"/>
+                <Button Text="Done" x:Name="Done" HorizontalOptions="End" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
