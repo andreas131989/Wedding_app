@@ -20,6 +20,5 @@ C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\n
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\ProgramPage.xaml.g.cs
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\RegistryPage.xaml.g.cs
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\SocializePage.xaml.g.cs
-C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\TransportPage.xaml.g.cs
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\UploadsPage.xaml.g.cs
 C:\Users\Andreas\Desktop\Wed app\Wedding_app\Wedding_app\Wedding_app\obj\Debug\netstandard2.0\Views\VenuePage.xaml.g.cs

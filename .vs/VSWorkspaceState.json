@@ -4,8 +4,10 @@
     "\\Wedding_app",
     "\\Wedding_app\\Wedding_app",
     "\\Wedding_app\\Wedding_app\\Wedding_app",
+    "\\Wedding_app\\Wedding_app\\Wedding_app.iOS",
+    "\\Wedding_app\\Wedding_app\\Wedding_app.iOS\\Resources",
     "\\Wedding_app\\Wedding_app\\Wedding_app\\Views"
   ],
-  "SelectedNode": "\\Wedding_app\\Wedding_app\\Wedding_app",
+  "SelectedNode": "\\Wedding_app\\Wedding_app\\Wedding_app.iOS\\Resources\\ktima.jpg",
   "PreviewInSolutionExplorer": false
 }

@@ -44,9 +44,6 @@ namespace Wedding_app.Views
                     case (int)MenuItemType.Venue:
                         MenuPages.Add(id, new NavigationPage(new VenuePage()));
                         break;
-                    case (int)MenuItemType.Transportation:
-                        MenuPages.Add(id, new NavigationPage(new TransportPage()));
-                        break;
                     case (int)MenuItemType.Registry:
                         MenuPages.Add(id, new NavigationPage(new RegistryPage()));
                         break;

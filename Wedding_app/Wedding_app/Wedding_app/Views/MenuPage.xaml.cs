@@ -23,7 +23,6 @@ namespace Wedding_app.Views
                 new HomeMenuItem {Id = MenuItemType.Program, Title="Program" },
                 new HomeMenuItem {Id = MenuItemType.Venue, Title="Venue" },
                 new HomeMenuItem {Id = MenuItemType.Accomodation, Title="Accomodation" },
-                new HomeMenuItem {Id = MenuItemType.Transportation, Title="Transportation" },
                 new HomeMenuItem {Id = MenuItemType.Uploads, Title="Uploads" },
                 new HomeMenuItem {Id = MenuItemType.Registry, Title="Registry" },
                 new HomeMenuItem {Id = MenuItemType.Socialize, Title="Socialize" }
